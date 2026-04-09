@@ -32,9 +32,10 @@ export const Footer = () => {
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/mangowidgets/reels/?hl=en"
                 className="hover:text-accent transition-colors"
                 aria-label="Instagram"
+                target="_blank"
               >
                 <Instagram className="w-5 h-5" />
               </a>
