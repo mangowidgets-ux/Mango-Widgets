@@ -21,7 +21,7 @@ export const Footer = () => {
             <img src="./images/logo-name.png" alt="logo"  />
             
             <p className="text-sm opacity-75 mb-4">
-              Creating seamless digital experiences and cutting-edge solutions.
+              Creating seamless digital experiences and cutting-edge solutions..
             </p>
             <div className="flex gap-4">
               <a
