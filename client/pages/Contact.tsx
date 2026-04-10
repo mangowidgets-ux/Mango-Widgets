@@ -252,13 +252,13 @@ const Contact = () => {
                   Follow Us
                 </p>
                 <div className="flex gap-4">
-                  <a
+                  {/* <a
                     href="#"
                     className="p-2 rounded-lg hover:bg-secondary dark:hover:bg-slate-800 transition-colors"
                     aria-label="LinkedIn"
                   >
                     <Linkedin className="w-5 h-5" />
-                  </a>
+                  </a> */}
                   <a
                     href="https://www.instagram.com/mangowidgets/reels/?hl=en"
                     className="p-2 rounded-lg hover:bg-secondary dark:hover:bg-slate-800 transition-colors"

@@ -24,13 +24,13 @@ export const Footer = () => {
               Creating seamless digital experiences and cutting-edge solutions..
             </p>
             <div className="flex gap-4">
-              <a
+              {/* <a
                 href="#"
                 className="hover:text-accent transition-colors"
                 aria-label="LinkedIn"
               >
                 <Linkedin className="w-5 h-5" />
-              </a>
+              </a> */}
               <a
                 href="https://www.instagram.com/mangowidgets/reels/?hl=en"
                 className="hover:text-accent transition-colors"

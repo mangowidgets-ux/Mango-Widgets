@@ -161,24 +161,30 @@ const Index = () => {
               <h3 className="text-sm text-foreground/60 mb-4 font-medium">
                 Clients: UX, UI, & Development
               </h3>
-            <div className="flex items-center gap-8">
+            <div className="flex mt-12 items-center gap-8">
                 {/* Client Badge */}
             <div className="">
               
               {/* <p className="text-2xl font-semibold text-foreground">
                 Butterflies
-              </p>
-              <p className="text-xs text-foreground/50 uppercase tracking-wider">
-                Architects & Engineers
-              </p> */}
+              </p>*/}
+              
 
               <img src="./images/butterfflies.svg" alt="butterfflies"/>
+
+              {/* <p className="text-xs mt-4 text-foreground/50 uppercase tracking-wider">
+                Indian Client
+              </p>  */}
             
             </div>
 
             {/* Client Badge */}
             <div className="">
               <img src="./images/ml_logo.jpeg" alt="ml"/>
+
+              {/* <p className="text-xs mt-4 text-foreground/50 uppercase tracking-wider">
+                Australia  Client
+              </p>  */}
               {/* <p className="text-2xl font-semibold text-foreground">
                 Butterflies
               </p>
@@ -190,6 +196,10 @@ const Index = () => {
             {/* Client Badge */}
             <div className="">
               <img src="./images/finbeheer.jpg" alt="finbeheer"/>
+
+              {/* <p className="text-xs mt-4 text-foreground/50 uppercase tracking-wider">
+                Europe Client
+              </p>  */}
               {/* <p className="text-2xl font-semibold text-foreground">
                 Butterflies
               </p>

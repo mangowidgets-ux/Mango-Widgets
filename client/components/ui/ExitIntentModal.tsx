@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { X, MessageCircle, ArrowRight } from "lucide-react";
 
 export const ExitIntentModal = () => {
@@ -6,7 +6,8 @@ export const ExitIntentModal = () => {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [submitted, setSubmitted] = useState(false);
-  const inactivityTimeout = 20000; // 10 seconds
+  const hasBeenShownRef = useRef(false);
+  const inactivityTimeout = 30000; // 30 seconds
 
   useEffect(() => {
     let inactivityTimer: NodeJS.Timeout;
@@ -18,15 +19,19 @@ export const ExitIntentModal = () => {
       clearTimeout(inactivityTimer);
 
       inactivityTimer = setTimeout(() => {
-        setIsOpen(true);
+        if (!hasBeenShownRef.current) {
+          setIsOpen(true);
+          hasBeenShownRef.current = true;
+        }
       }, inactivityTimeout);
     };
 
     // Track mouse movement
     const handleMouseMove = (e: MouseEvent) => {
       // Exit intent: if mouse is at the very top of the page
-      if (e.clientY < 10) {
+      if (e.clientY < 10 && !hasBeenShownRef.current) {
         setIsOpen(true);
+        hasBeenShownRef.current = true;
       }
       resetInactivityTimer();
     };
@@ -43,7 +48,10 @@ export const ExitIntentModal = () => {
 
     // Initialize the timer
     inactivityTimer = setTimeout(() => {
-      setIsOpen(true);
+      if (!hasBeenShownRef.current) {
+        setIsOpen(true);
+        hasBeenShownRef.current = true;
+      }
     }, inactivityTimeout);
 
     // Add event listeners
