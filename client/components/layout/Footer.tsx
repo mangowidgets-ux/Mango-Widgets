@@ -93,22 +93,22 @@ export const Footer = () => {
                   About Us
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   to="/portfolio"
                   className="opacity-75 hover:opacity-100 hover:text-accent transition-colors"
                 >
                   Portfolio
                 </Link>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <Link
                   to="/clients"
                   className="opacity-75 hover:opacity-100 hover:text-accent transition-colors"
                 >
                   Clients
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   to="/contact"

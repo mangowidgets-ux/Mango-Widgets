@@ -388,7 +388,7 @@ const Index = () => {
               Let's collaborate and create something amazing together.
             </p>
             <a
-              href="mailto:mangowidgets@gmail.com"
+              href="/contact"
               className="inline-block px-8 py-3 bg-foreground text-background rounded-lg font-semibold hover:shadow-lg transition-all"
             >
               Start Your Project
