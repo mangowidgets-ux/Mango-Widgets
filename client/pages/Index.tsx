@@ -89,19 +89,19 @@ const Index = () => {
   const testimonials = [
     {
       name: "Saravana Kumar",
-      company: "butterfflies",
+      company: "butterfflies | Architects & Engineers | India",
       text: "Exceptional team that delivered beyond our expectations. Highly recommended!",
       rating: 5,
     },
     {
       name: "Raul's",
-      company: "Martis Laggers",
+      company: "Martis Laggers | Construction | Real Estate | Australia",
       text: "Professional, responsive, and results-driven. A pleasure to work with.",
       rating: 5,
     },
     {
       name: "Ramana murthy",
-      company: "Finbeheer",
+      company: "Finbeheer | Fintech | Europe",
       text: "Outstanding quality and timely delivery. They truly understand our vision.",
       rating: 5,
     },
@@ -162,20 +162,15 @@ const Index = () => {
                 Clients: UX, UI, & Development
               </h3>
             <div className="flex mt-12 items-center gap-8">
-                {/* Client Badge */}
             <div className="">
-              
-              {/* <p className="text-2xl font-semibold text-foreground">
-                Butterflies
-              </p>*/}
-              
-
+              <p className="text-2xl font-semibold text-foreground">
+               Butterflies
+              </p>
               <img src="./images/butterfflies.svg" alt="butterfflies"/>
 
               {/* <p className="text-xs mt-4 text-foreground/50 uppercase tracking-wider">
                 Indian Client
               </p>  */}
-            
             </div>
 
             {/* Client Badge */}
@@ -209,6 +204,8 @@ const Index = () => {
             </div>
             </div>
             </div>
+              
+
           </div>
         </div>
       </section>
