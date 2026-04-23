@@ -254,7 +254,7 @@ const Index = () => {
       </section>
 
       {/* Features Section */}
-      <section className="py-20 bg-secondary relative overflow-hidden">
+      <section className="py-20 bg-card relative overflow-hidden">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl md:text-5xl font-bold text-center text-foreground mb-16">
             Why Choose Us
@@ -311,7 +311,7 @@ const Index = () => {
       </section> */}
 
       {/* Testimonials Section */}
-      <section className="py-20 bg-muted relative overflow-hidden">
+      <section className="py-20 bg-secondary relative overflow-hidden">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl md:text-5xl font-bold text-center text-foreground mb-16">
             What Our Clients Say

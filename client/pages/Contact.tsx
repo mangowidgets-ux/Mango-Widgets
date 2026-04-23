@@ -60,7 +60,7 @@ const Contact = () => {
   return (
     <div className="w-full">
       {/* Hero Section */}
-      <section className="min-h-[50vh] flex items-center justify-center bg-background dark:bg-[#0a0e27] relative">
+      <section className="min-h-[50vh] flex items-center justify-center bg-background dark:bg-[#0a0e27] relative py-20">
         <div className="container mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-bold text-foreground dark:text-white mb-6">
             Get in Touch
@@ -72,7 +72,7 @@ const Contact = () => {
       </section>
 
       {/* Contact Section */}
-      <section className="py-20 bg-card dark:bg-slate-900/50">
+      <section className="py-16 bg-gradient-to-b from-card to-background dark:from-slate-900/50 dark:to-[#0a0e27]">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Form */}
